@@ -20,7 +20,7 @@ This project aims to provide a robust and customizable solution for creating an 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/ecommerce-web-app.git
+    git clone https://github.com/Sammyarc/ecommerce-web-app.git
     ```
 
 2. Navigate to the project directory:
@@ -47,6 +47,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contact
 
-Have questions or suggestions? Feel free to reach out to us at [your@email.com](mailto:your@email.com).
+Have questions or suggestions? Feel free to reach out to us at [nkemakolamsam@gmail.com](mailto:your@email.com).
 
 Thank you for considering contributing to our project! We look forward to your involvement. 🚀
