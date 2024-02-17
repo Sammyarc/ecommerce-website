@@ -113,7 +113,7 @@ function updateCartDisplay() {
            <i class='bx bx-cart-add p-3 bg-slate-400 rounded-full text-4xl text-gray-500'></i>
             </div>
             <p class="text-gray-500 flex justify-center items-center">No items in your cart</p>
-            <a href="product.html" class="cursor-pointer mx-auto w-64 flex justify-center px-2 py-2 mt-7 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Start Shopping</a>
+            <a href="product.html" class="cursor-pointer mx-auto w-64 flex justify-center px-2 py-2 mt-7 bg-orange text-white font-semibold rounded-md hover:bg-amber-500 transition duration-500 ease-in-out">Start Shopping</a>
             `;
         
         // Hide the "Proceed to Checkout" link
