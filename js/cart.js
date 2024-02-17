@@ -112,7 +112,9 @@ function updateCartDisplay() {
             <div class="flex justify-center items-center mt-16">
            <i class='bx bx-cart-add p-3 bg-slate-400 rounded-full text-4xl text-gray-500'></i>
             </div>
-            <p class="text-gray-500 flex justify-center items-center">No items in your cart</p>`;
+            <p class="text-gray-500 flex justify-center items-center">No items in your cart</p>
+            <a href="product.html" class="cursor-pointer mx-auto w-64 flex justify-center px-2 py-2 mt-7 bg-orange text-white font-semibold rounded-xl hover:bg-amber-500 transition duration-500 ease-in-out">Start Shopping</a>
+            `;
         
         // Hide the "Proceed to Checkout" link
         proceedToCheckoutLink.classList.remove('flex');
@@ -152,7 +154,7 @@ function renderViewedProducts(viewedProducts) {
 
 function createViewedProductHTML(product, index) {
     return`
-    <div class="bg-white border rounded-xl mt-5 p-2">
+    <div class="bg-white border rounded-xl mt-5 p-2 h-72">
     <a href="listings.html?id=${product.id}">
         <div class="cart-img">
         <img src="${product.imageSrc.image1}" alt="${product.model}" class=" ">
