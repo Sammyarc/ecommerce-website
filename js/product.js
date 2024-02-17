@@ -284,7 +284,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function createProductElement(product) {
     const productElement = document.createElement('div');
-    productElement.className = 'border rounded-xl mt-5 h-auto';
+    productElement.className = 'border rounded-xl mt-5';
+   
 
     // Construct the product HTML
     productElement.innerHTML = `
